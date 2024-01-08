@@ -1,0 +1,76 @@
+.text-title {
+  margin-top: 2px;
+  font-family: 'Arial', sans-serif; /* Fonte atraente */
+  text-align: center;
+}
+
+/* Estilo para o contêiner do vídeo */
+.video-container {
+  display: none; /* Ocultar o contêiner inicialmente */
+  position: relative;
+  padding-bottom: 40%; /* Proporção de aspecto de 16:9 (para vídeos widescreen) */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo para o formulário de entrada de link */
+.input-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 70%;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #FF0000; /* Vermelho, cor do botão do YouTube */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilo para os QR codes e textos */
+.qr-code-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.qr-code {
+  text-align: center;
+}
+
+.qr-code img {
+  max-width: 80%;
+  height: 60%;
+}
+
+.qr-code-text {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif; /* Fonte atraente */
+}
+
+.blue-text {
+  color: #007BFF; /* Azul, cor do YouTube */
+}
+
+.purple-text {
+  color: #9400D3; /* Roxo, tom de botão personalizado */
+}
